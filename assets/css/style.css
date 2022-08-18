@@ -1,26 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Rajdhani:wght@300&display=swap');
+{
+    background-color: grey;
+}
+
 body {
-    background-color: rgb(241, 231, 243);
+    background-color: white;
     font-family: 'Rajdhani', sans-serif;
     margin: 0;
     padding: 0;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
-header {
-    background-color: whitesmoke;
-    color: rgb(32, 0, 61);
-    margin: 0;
-    margin-top: 10px;
-    padding: 0;
+.header-wrapper {
+    /*cabeçalho móvel*/
+    align-items: center;
+    animation: backgroundTransition 8s ease-in-out infinite;
+    background: linear-gradient(-45deg, #487fb3, #914997, #f805a7, #6a23ac);
+    background-size: 400% 400%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    /*texto*/
+    letter-spacing: 4px;
+    /**/
+    margin-bottom: 30px;
+}
+
+.header-titulo {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 6px;
+    text-decoration: wavy;
+}
+
+.miolo {
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+    text-decoration: none;
 }
 
 footer {
     background-color: rgb(32, 0, 61);
     color: whitesmoke;
+    font-size: 20px;
+    letter-spacing: 2px;
     margin: 0;
     margin-top: 10px;
     padding: 20px;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
 }
