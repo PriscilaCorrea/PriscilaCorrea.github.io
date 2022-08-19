@@ -1,23 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Rajdhani:wght@300&display=swap');
-* {
-    /* background-color: grey;*/
-}
-
 body {
     background-color: white;
     font-family: 'Rajdhani', sans-serif;
     margin: 0;
     padding: 0;
-    padding-bottom: 0;
-    padding-top: 0;
 }
 
 .header-wrapper {
-    /*cabeçalho móvel*/
+    /*cabeçalho animado*/
     align-items: center;
-    animation: backgroundTransition 8s ease-in-out infinite;
-    background: linear-gradient(-45deg, #5e9dd8, #af55ca, #f805a7, #5a23d8);
-    background-size: 400% 400%;
+    animation: backgroundTransition 8s ease-in-out 0s infinite;
+    background: linear-gradient(-45deg, #5e9dd8, #af55ca, #d4339f, #500bf1);
+    background-size: 300% 300%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -28,7 +22,22 @@ body {
     /*texto*/
     letter-spacing: 4px;
     /**/
-    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+
+/*controle da transição do fundo*/
+
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0% 60%;
+    }
+    50% {
+        background-position: 60% 100%;
+    }
+    100% {
+        background-position: 0% 90%;
+    }
 }
 
 .header-titulo {
@@ -53,15 +62,15 @@ body {
     min-width: 4rem;
     padding: 1rem 4rem;
     text-decoration: none;
-    transition: .5s cubic-bezier(0.55, 0.025, 0.675, 0.97);
+    transition: .3s cubic-bezier(0.55, 0.025, 0.675, 0.97);
 }
 
 a:hover {
     color: #29002e;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 
-.miolo {
+.topo {
     background-color: white;
     padding: 20px;
     text-align: justify;
@@ -69,7 +78,7 @@ a:hover {
 }
 
 footer {
-    background-color: rgb(32, 0, 61);
+    background-color: #3b1646;
     color: whitesmoke;
     font-size: 20px;
     letter-spacing: 2px;
