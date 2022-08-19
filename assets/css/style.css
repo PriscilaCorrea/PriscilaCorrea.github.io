@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Rajdhani:wght@300&display=swap');
-{
+* {
     background-color: grey;
 }
 
@@ -24,7 +24,7 @@ body {
     height: 50vh;
     justify-content: center;
     position: relative;
-    width: 100vw;
+    width: 100%;
     /*texto*/
     letter-spacing: 4px;
     /**/
