@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Rajdhani:wght@300&display=swap');
 * {
-    background-color: grey;
+    /* background-color: grey;*/
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     /*cabeçalho móvel*/
     align-items: center;
     animation: backgroundTransition 8s ease-in-out infinite;
-    background: linear-gradient(-45deg, #487fb3, #914997, #f805a7, #6a23ac);
+    background: linear-gradient(-45deg, #5e9dd8, #af55ca, #f805a7, #5a23d8);
     background-size: 400% 400%;
     color: white;
     display: flex;
