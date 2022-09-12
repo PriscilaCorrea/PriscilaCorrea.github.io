@@ -85,7 +85,6 @@ a:hover {
 /* Cards */
 
 .container {
-    background-color: aquamarine;
     width: 100%;
     height: auto;
     display: flex;
@@ -96,7 +95,6 @@ a:hover {
 }
 
 .card-container {
-    background-color: yellowgreen;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -104,11 +102,10 @@ a:hover {
 }
 
 .card {
-    background-color: #29002e;
     height: 300px;
     width: 400px;
     margin: 3rem 0;
-    background-image: url('assets/images/fundoCARD.jpg');
+    background-image: url('assets/images/azaleias-1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,7 +126,6 @@ a:hover {
 }
 
 .card-wrapper {
-    background-color: royalblue;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -139,7 +135,6 @@ a:hover {
 }
 
 .card-wrapper::before {
-    background-color: grey;
     content: '';
     position: absolute;
     height: 100px;
