@@ -8,7 +8,7 @@ body {
     width: 100%;
 }
 
-/*.header-wrapper {
+.header-wrapper {
     /*fundo animado*/
     align-items: center;
     animation: backgroundTransition 8s ease-in-out 0s infinite;
@@ -26,7 +26,6 @@ body {
     /*espaçamento interno*/
     padding-bottom: 20px;
 }
-*/
 
 
 /*controle da transição do fundo do cabeçalho*/
