@@ -76,7 +76,7 @@ a:hover {
     justify-content: center;
     margin: 10px;
     padding: 20px;
-    padding-left: 100px;
+    padding-left: 100%;
     text-align: justify;
     text-decoration: none;
     width: 100%;
